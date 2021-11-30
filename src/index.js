@@ -44,6 +44,12 @@ footer.addEventListener('mouseover', function(e) {
 });
 
 // 5 contextMenu
+btnsOmg.forEach(function(e) {
+    e.addEventListener('contextmenu', function() {
+        e.style.backgroundColor = 'lightgreen';
+    })
+});
+
 // 6 wheel
 // 7 copy
 // 8 auxclick
