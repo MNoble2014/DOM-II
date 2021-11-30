@@ -9,3 +9,20 @@ destination.forEach(function(e) {
         e.style.color = 'white';
     });
 })
+
+// stops nav from refreshing and stops propagation
+// 2 click x 2
+const noRefresh = document.querySelector('.nav');
+noRefresh.addEventListener('click', function(event) {
+    console.log('I was clicked');
+    event.preventDefault();
+});
+
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+// 10
