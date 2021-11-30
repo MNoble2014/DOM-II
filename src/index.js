@@ -43,7 +43,7 @@ footer.addEventListener('mouseover', function(e) {
     e.stopPropagation();
 });
 
-// 5 contextMenu
+// 5 contextmenu
 btnsOmg.forEach(function(e) {
     e.addEventListener('contextmenu', function() {
         e.style.backgroundColor = 'lightgreen';
@@ -51,6 +51,11 @@ btnsOmg.forEach(function(e) {
 });
 
 // 6 wheel
+const foot = document.querySelector('footer');
+foot.addEventListener('wheel', function(e) {
+    e.stopPropagation();
+});
+
 // 7 copy
 // 8 auxclick
 // 9 keydown
