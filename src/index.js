@@ -18,7 +18,18 @@ noRefresh.addEventListener('click', function(event) {
     event.preventDefault();
 });
 
-// 3
+// 3 mousemove
+const btnsOmg = document.querySelectorAll('.btn');
+btnsOmg[0].addEventListener('mousemove', function() {
+    btnsOmg[0].textContent = "O"
+});
+btnsOmg[1].addEventListener('mousemove', function() {
+    btnsOmg[1].textContent = "M"
+});
+btnsOmg[2].addEventListener('mousemove', function() {
+    btnsOmg[2].textContent = "G"
+});
+
 // 4
 // 5
 // 6
