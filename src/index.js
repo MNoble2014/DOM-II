@@ -71,4 +71,8 @@ anchors.forEach(function(e) {
 })
 
 // 9 keydown
+window.addEventListener('keydown', function() {
+    alert("No button pushing on this page")
+})
+
 // 10 drag
