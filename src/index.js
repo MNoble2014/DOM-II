@@ -62,5 +62,13 @@ window.addEventListener('copy', function() {
 })
 
 // 8 auxclick
+const anchors = document.querySelectorAll(".nav a");
+anchors.forEach(function(e) {
+    e.addEventListener('auxclick', function() {
+        e.style.color = 'red';
+        console.log("I turn links red and rhyme')")
+    });
+})
+
 // 9 keydown
 // 10 drag
