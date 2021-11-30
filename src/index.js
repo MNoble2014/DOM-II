@@ -76,3 +76,7 @@ window.addEventListener('keydown', function() {
 })
 
 // 10 drag
+const honkHonk = document.querySelector('.headerImg');
+honkHonk.addEventListener('drag', function() {
+    console.log("Please stop dragging me")
+});
