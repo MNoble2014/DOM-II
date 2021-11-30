@@ -57,6 +57,10 @@ foot.addEventListener('wheel', function(e) {
 });
 
 // 7 copy
+window.addEventListener('copy', function() {
+    alert("No Touch, No Copy")
+})
+
 // 8 auxclick
 // 9 keydown
 // 10 drag
