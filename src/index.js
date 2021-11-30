@@ -18,6 +18,12 @@ noRefresh.addEventListener('click', function(event) {
     event.preventDefault();
 });
 
+const blog = document.querySelectorAll('.nav a');
+blog[2].addEventListener('click', function(e) {
+    alert('My blog is empty')
+    e.stopPropagation();
+});
+
 // 3 mousemove
 const btnsOmg = document.querySelectorAll('.btn');
 btnsOmg[0].addEventListener('mousemove', function() {
@@ -30,10 +36,10 @@ btnsOmg[2].addEventListener('mousemove', function() {
     btnsOmg[2].textContent = "G"
 });
 
-// 4
-// 5
-// 6
-// 7
-// 8
-// 9
-// 10
+// 4 mouseover
+// 5 contextMenu
+// 6 wheel
+// 7 copy
+// 8 auxclick
+// 9 keydown
+// 10 drag
