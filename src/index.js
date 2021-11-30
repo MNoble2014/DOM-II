@@ -37,6 +37,12 @@ btnsOmg[2].addEventListener('mousemove', function() {
 });
 
 // 4 mouseover
+const footer = document.querySelector('footer');
+footer.addEventListener('mouseover', function(e) {
+    console.log('poof');
+    e.stopPropagation();
+});
+
 // 5 contextMenu
 // 6 wheel
 // 7 copy
